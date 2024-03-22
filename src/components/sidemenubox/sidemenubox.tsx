@@ -15,15 +15,11 @@ export const Sidemenubox = ({ className }: SidemenuboxProps) => {
             <nav className={styles.menuitem}>
                 <a href="/home" className={styles.navmenutem}>
                     Item
-                    <img src="/src/assets/user ion.png" alt="" className={styles.iconimg} />
-                </a>
-                <a href="/home" className={styles.navmenutem}>
-                    Item
                     <img src="/src/assets/item icon_1.png" alt="" className={styles.iconimg} />
                 </a>
                 <a href="/projects" className={styles.navmenutem}>
                     <img src="/src/assets/user ion.png" alt="" className={styles.iconimg} />
-                    Categores
+                    Categories
                 </a>
                 <a href="/about" className={styles.navmenutem}>
                     <img src="/src/assets/item icon_1.png" alt="" className={styles.iconimg} />
