@@ -39,3 +39,28 @@
   color: #5bcfc6;
   background-color: #ecf8f6;
 }
+.contentbox {
+  background-color: #ffffff;
+  width: 600px;
+  height: 200px;
+  min-width: 600px;
+  padding: 20px;
+  margin: 10px;
+}
+.formbox {
+  border-radius: 15px;
+  border: 1px solid #bcbcbc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.formbox:hover {
+  border-radius: 15px;
+  border: 1px solid #5bcfc6;
+  padding: 10px;
+  font-size: 16px;
+}
+.content-content1 {
+  display: inline-block;
+  width: 25%;
+}
