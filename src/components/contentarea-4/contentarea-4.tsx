@@ -13,9 +13,12 @@ export const Contentarea4 = ({ className }: Contentarea4Props) => {
     return (
         <div className={classNames(styles.root, styles.contentarea4)}>
             <div className={styles.contentarea3box1}>
+                <h4>Sub Category</h4>
                 <img src="/src/assets/codux.svg" alt="" width="90%" />
             </div>
-            <div className={styles.contentarea3box3} />
+            <div className={styles.contentarea3box3}>
+                <h4>Details</h4>
+            </div>
         </div>
     );
 };

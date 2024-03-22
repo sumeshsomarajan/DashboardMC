@@ -11,8 +11,8 @@ export interface HeaderbarProps {
  */
 export const Headerbar = ({ className }: HeaderbarProps) => {
     return (
-        <div className={classNames(styles.root, className)}>
-            <div className={styles.headbar} />
+        <div className={styles.headbartop}>
+            <div className={styles.headbar}></div>
         </div>
     );
 };

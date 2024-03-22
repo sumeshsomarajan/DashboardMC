@@ -12,7 +12,7 @@ export interface Contentarea2Props {
  */
 export const Contentarea2 = ({ className }: Contentarea2Props) => {
     return (
-        <div className={classNames(styles.root, className)}>
+        <div>
             <div className={styles.content1}>
                 <h3>Item Master</h3>
             </div>

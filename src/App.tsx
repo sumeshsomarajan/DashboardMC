@@ -6,6 +6,7 @@ import { Contentarea4 } from './components/contentarea-4/contentarea-4';
 function App() {
     return (
         <div className={styles.App}>
+            <div />
             <Sidemenubox />
             <Contentarea2 />
             <Contentarea4 />

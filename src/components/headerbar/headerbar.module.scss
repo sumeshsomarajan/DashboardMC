@@ -3,8 +3,17 @@
 .headbar {
   border-radius: 15px;
   background-color: #467ace;
-  min-height: 50px;
-  width: 1024px;
-  height: 50px;
-  display: grid;
+  min-height: 25px;
+  height: 25px;
+  display: block;
+  width: 1300px;
+  min-width: 1300px;
+}
+.headbartop {
+  overflow: auto;
+  display: block;
+  flex-direction: column;
+  width: 1300px;
+  min-width: 1300px;
+  height: 25px;
 }
