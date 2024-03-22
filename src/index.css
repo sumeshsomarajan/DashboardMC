@@ -50,7 +50,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 .contentbox1 {
-  width: auto;
+  width: 600px;
   border-radius: 25px;
   border: 1px solid #e6e0e0;
   background-color: #ffffff;
@@ -60,11 +60,11 @@ button:focus-visible {
   margin-top: 50px;
 }
 .contentb1 {
-  width: auto;
   height: 200px;
   background-color: #507087;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   border-radius: 25px;
   margin: 50px 0px 0px 30px;
+  width: 650px;
 }

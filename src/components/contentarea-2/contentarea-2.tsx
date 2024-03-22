@@ -19,11 +19,10 @@ export const Contentarea2 = ({ className }: Contentarea2Props) => {
             <div className={styles.content1}>
                 <input className={styles.formbox1} placeholder="search here" />
             </div>
-            <div className={styles.content1}></div>
             <div className="contentbox1">
                 <h4>Main Category</h4>
-                <img src="/src/assets/image-graph.jpg" alt="" width="600" />
                 <img src="/src/assets/image-bar.jpg" alt="" width="600px" />
+                <img src="/src/assets/image-graph.jpg" alt="" width="600" />
             </div>
             <div className="contentb1" />
         </div>
