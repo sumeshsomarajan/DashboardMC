@@ -13,11 +13,29 @@ export interface SidemenuboxProps {
 export const Sidemenubox = ({ className }: SidemenuboxProps) => {
     return (
         <div className={styles.contentbox}>
-            <div className={styles['content-content1']}>
-                <h3>Item Master</h3>
+            <div>
+                <img src="/src/assets/logo_mcg (1).png" className={styles.logoimg} />
             </div>
-            <div className={styles['content-content1']} />
-            <input className={styles.formbox} placeholder="search here" />
+            <div>
+                <nav className={styles.menuitem}>
+                    <a href="/home" className={styles.navmenutem}>
+                        Item
+                        <img src="/src/assets/item icon_1.png" alt="" className={styles.iconimg} />
+                    </a>
+                    <a href="/home" className={styles.navmenutem}>
+                        Categories{' '}
+                        <img src="/src/assets/item icon_1.png" alt="" className={styles.iconimg} />
+                    </a>
+                    <a href="/home" className={styles.navmenutem}>
+                        Issue locations
+                        <img src="/src/assets/item icon_1.png" alt="" className={styles.iconimg} />
+                    </a>
+                    <a href="/home" className={styles.navmenutem}>
+                        Reference Table
+                        <img src="/src/assets/item icon_1.png" alt="" className={styles.iconimg} />
+                    </a>
+                </nav>
+            </div>
         </div>
     );
 };

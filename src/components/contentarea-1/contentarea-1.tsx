@@ -11,4 +11,4 @@ export interface Contentarea1Props {
  */
 export const Contentarea1 = ({ className }: Contentarea1Props) => {
     return <div className={classNames(styles.root, className)}>Contentarea1</div>;
-};
+};
