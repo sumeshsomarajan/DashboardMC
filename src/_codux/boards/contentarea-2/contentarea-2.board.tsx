@@ -6,6 +6,6 @@ export default createBoard({
     Board: () => <Contentarea2 />,
     isSnippet: true,
     environmentProps: {
-        canvasWidth: 602,
+        canvasWidth: 700,
     },
 });
